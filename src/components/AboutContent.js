@@ -1,6 +1,6 @@
 import React from "react";
 import "./aboutContent.css";
-import { Link } from "react-router-dom";
+
 import {FaDownload} from "react-icons/fa"
 
 const AboutContent = () => {
@@ -19,9 +19,9 @@ const AboutContent = () => {
         </p>
         </div>
        <div className="aboutButtons">
-       <Link to="/contact">
+       <a href="/contact">
           <button className="btn">Contact</button>
-        </Link>
+        </a>
         <a href="../assests/Anshul_Singh_Gaur_.docx" target="_blank">
           <button className="btn"><FaDownload />Download resume</button>
         </a>

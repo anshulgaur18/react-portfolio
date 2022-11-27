@@ -1,44 +1,46 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import { Link } from "react-router-dom";
-import {FaBars, FaTimes} from "react-icons/fa";
+
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
+  const [click, setClick] = useState(false);
+  const [color, setColor] = useState(false);
 
-const [click , setClick] = useState(false);
-const [color , setColor] = useState(false);
+  const handleClick = () => setClick(!click);
+  const changeColor = () => {
+    if (window.scrollY >= 100) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
 
-const handleClick = ()=> setClick(!click);
-const changeColor = ()=>{
-  if(window.scrollY >= 100){
-    setColor(true);
-  }else{
-    setColor(false);
-  }
-}
-
-window.addEventListener("scroll",changeColor);
+  window.addEventListener("scroll", changeColor);
 
   return (
-    <div className={color?"navbar navbar-bg":"navbar"}>
+    <div className={color ? "navbar navbar-bg" : "navbar"}>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/">Home</Link>
+          <AnchorLink href="#home">Home</AnchorLink>
         </li>
         <li>
-          <Link to="/project">Project</Link>
+          <AnchorLink href="#project">Project</AnchorLink>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <AnchorLink href="#contact">Contact</AnchorLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <AnchorLink href="#about">About</AnchorLink>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
-      {click ? <FaTimes size={20} style={{color:"#fff"}}/> : <FaBars size={20} style={{color:"#fff"}}/>}
-        
-
+        {click ? (
+          <FaTimes size={20} style={{ color: "#fff" }} />
+        ) : (
+          <FaBars size={20} style={{ color: "#fff" }} />
+        )}
       </div>
     </div>
   );
