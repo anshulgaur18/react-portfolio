@@ -42,22 +42,22 @@ const Footer = () => {
             </h4>
           </div>
           <div className="social">
-            <AiFillLinkedin
+            <a href="http://www.linkedin.com/in/anshul-gaur-83194a110/" target="_blank" ><AiFillLinkedin
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <AiFillGithub
+            /></a>
+              <a href="https://github.com/anshulgaur18" target="_blank" ><AiFillGithub
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <BsInstagram
+            /></a>
+              <a href="https://www.instagram.com/anshulgaur18/" target="_blank" ><BsInstagram
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <BsTwitter
+            /></a>
+              <a href="http://www.linkedin.com/in/anshul-gaur-83194a110/" target="_blank" ><BsTwitter
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            /></a>
           
         </div>
         

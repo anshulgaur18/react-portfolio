@@ -1,5 +1,6 @@
 import React from "react";
 import "./aboutContent.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import {FaDownload} from "react-icons/fa"
 
@@ -20,11 +21,11 @@ const AboutContent = () => {
         </div>
        <div className="aboutButtons">
        <a href="/contact">
-          <button className="btn">Contact</button>
+       <AnchorLink href="#contact"><button className="btn">Contact</button></AnchorLink> 
         </a>
-        <a href="../assests/Anshul_Singh_Gaur_.docx" target="_blank">
+      
           <button className="btn"><FaDownload />Download resume</button>
-        </a>
+        
        </div>
        
         </div>
