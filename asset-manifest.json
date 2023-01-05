@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.4115a0ea.css",
-    "main.js": "/react-portfolio/static/js/main.27b5cd39.js",
+    "main.js": "/react-portfolio/static/js/main.a56c909a.js",
     "static/media/mailchimp-lsdA8QpWN_A-unsplash.jpg": "/react-portfolio/static/media/mailchimp-lsdA8QpWN_A-unsplash.4d4cfa4b307ffe8d560f.jpg",
+    "static/media/Screenshot 2022-12-19 181631.png": "/react-portfolio/static/media/Screenshot 2022-12-19 181631.fcae306670f296da1b7e.png",
+    "static/media/Screenshot 2022-12-19 183031.png": "/react-portfolio/static/media/Screenshot 2022-12-19 183031.3a1b6e6d2fae8615f481.png",
+    "static/media/Screenshot 2022-12-19 181359.png": "/react-portfolio/static/media/Screenshot 2022-12-19 181359.35ed8bc2b01204afac72.png",
+    "static/media/Screenshot 2022-12-19 181907.png": "/react-portfolio/static/media/Screenshot 2022-12-19 181907.9be0f4c211689ad7015d.png",
     "static/media/Screenshot (20).png": "/react-portfolio/static/media/Screenshot (20).6a3b127805c25f5981ac.png",
+    "static/media/Screenshot 2022-12-19 181720.png": "/react-portfolio/static/media/Screenshot 2022-12-19 181720.5f1bed3b85b8d0600d77.png",
     "index.html": "/react-portfolio/index.html",
     "main.4115a0ea.css.map": "/react-portfolio/static/css/main.4115a0ea.css.map",
-    "main.27b5cd39.js.map": "/react-portfolio/static/js/main.27b5cd39.js.map"
+    "main.a56c909a.js.map": "/react-portfolio/static/js/main.a56c909a.js.map"
   },
   "entrypoints": [
     "static/css/main.4115a0ea.css",
-    "static/js/main.27b5cd39.js"
+    "static/js/main.a56c909a.js"
   ]
 }
